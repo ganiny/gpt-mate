@@ -427,8 +427,8 @@ export default function Component() {
         {/* Right Content - Preview/Code */}
         <div className="flex-1 flex flex-col">
           {/* Tab Controls */}
-          <div className="border-b p-4">
-            <Tabs className="flex justify-center" value={activeTab} onValueChange={(value) => setActiveTab(value as "preview" | "code")}>
+          <div className="flex justify-center border-b p-4">
+            <Tabs value={activeTab} onValueChange={(value) => setActiveTab(value as "preview" | "code")}>
               <TabsList>
                 <TabsTrigger value="preview" className="gap-2">
                   <Eye className="w-4 h-4" />
