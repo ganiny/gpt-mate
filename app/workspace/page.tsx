@@ -432,11 +432,11 @@ export default function Component() {
               <TabsList>
                 <TabsTrigger value="preview" className="gap-2">
                   <Eye className="w-4 h-4" />
-                  Design Preview
+                  Preview
                 </TabsTrigger>
                 <TabsTrigger value="code" className="gap-2">
                   <Code className="w-4 h-4" />
-                  Code Editor
+                  Code
                 </TabsTrigger>
               </TabsList>
             </Tabs>
